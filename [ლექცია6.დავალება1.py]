@@ -1,0 +1,8 @@
+[ლექცია6.დავალება1.py](https://github.com/user-attachments/files/33185628/6.1.py)
+word = input("შეიყვანე სიტყვა: ")
+letter = input("რომელი სიმბოლო დავთვალოთ: ")
+counter = 0
+for char in word:
+    if char == letter:
+        counter += 1
+print("სიმბოლო", letter, "გვხვდება", counter, "-ჯერ")
